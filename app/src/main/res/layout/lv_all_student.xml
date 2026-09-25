@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:id="@+id/cv_single_student"
+    app:cardBackgroundColor="@color/purple_200"
+    app:cardCornerRadius="8dp"
+    app:cardMaxElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:id="@+id/tv_student_name_title"
+                android:text="Student Name: "
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:id="@+id/tv_student_name"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:id="@+id/tv_student_enrollment_no_title"
+                android:text="Student Enrollment No: "
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:id="@+id/tv_student_enrollment_no"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:id="@+id/tv_student_mobile_no_title"
+                android:text="Student Mobile No: "
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:id="@+id/tv_student_mobile_no"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:autoLink="phone"
+                android:fontFamily="sans-serif-condensed-medium"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:id="@+id/tv_student_branch_title"
+                android:text="Student Branch: "
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:id="@+id/tv_student_branch"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:id="@+id/tv_student_sem_title"
+                android:text="Student Sem: "
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:id="@+id/tv_student_sem"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

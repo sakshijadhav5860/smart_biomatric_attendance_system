@@ -1,0 +1,390 @@
+<resources>
+    <string name="app_name">WIFI Attendance System Teacher App</string>
+
+
+    <string-array name="branch">
+        <item>Select Your Branch</item>
+        <item>Computer Engineering</item>
+        <item>Information Technology</item>
+        <item>Electronics and Telecommunication</item>
+        <item>Electrical Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+
+    </string-array>
+
+    <string-array name="semester">
+
+        <item>Select Your Sem</item>
+        <item>First Sem</item>
+        <item>Second Sem</item>
+        <item>Third Sem</item>
+        <item>Fourth Sem</item>
+        <item>Fifth Sem</item>
+        <item>Sixth Sem</item>
+
+    </string-array>
+
+
+    <string-array name="select_your_subject">
+
+        <item>First Choose Branch And Semester</item>
+    </string-array>
+
+    <!-- ================= COMPUTER ================= -->
+
+    <string-array name="computer_first_sem">
+        <item>BMS</item>
+        <item>ENG</item>
+        <item>BSC</item>
+        <item>ICT</item>
+        <item>WPC</item>
+        <item>YAM</item>
+        <item>EGP</item>
+    </string-array>
+
+    <string-array name="computer_second_sem">
+        <item>AMS</item>
+        <item>BEE</item>
+        <item>PIC</item>
+        <item>WPD</item>
+        <item>BLP</item>
+        <item>PCO</item>
+        <item>SFS</item>
+    </string-array>
+
+    <string-array name="computer_third_sem">
+        <item>DSU</item>
+        <item>OOP</item>
+        <item>DBMS</item>
+        <item>DTE</item>
+        <item>CGR</item>
+        <item>EIC</item>
+
+    </string-array>
+
+    <string-array name="computer_fourth_sem">
+        <item>EES</item>
+        <item>Java</item>
+        <item>JPR</item>
+        <item>DCN</item>
+        <item>UID</item>
+        <item>MIC</item>
+        <item>PWP</item>
+    </string-array>
+
+    <string-array name="computer_fifth_sem">
+        <item>OSY</item>
+        <item>STE</item>
+        <item>ENDS</item>
+        <item>SPT</item>
+        <item>ITR</item>
+
+    </string-array>
+
+    <string-array name="computer_sixth_sem">
+        <item>MAN</item>
+        <item>ETI</item>
+        <item>SFT</item>
+        <item>CSS</item>
+        <item>MAD</item>
+        <item>CPE</item>
+
+    </string-array>
+
+    <!-- ================= IT ================= -->
+
+    <string-array name="it_first_sem">
+        <item>BMS</item>
+        <item>ENG</item>
+        <item>BSC</item>
+        <item>ICT</item>
+        <item>WPC</item>
+        <item>YAM</item>
+        <item>EGP</item>
+    </string-array>
+
+    <string-array name="it_second_sem">
+        <item>AMS</item>
+        <item>BEE</item>
+        <item>PIC</item>
+        <item>WPD</item>
+        <item>BLP</item>
+        <item>PCO</item>
+        <item>SFS</item>
+    </string-array>
+
+    <string-array name="it_third_sem">
+        <item>DSU</item>
+        <item>DBMS</item>
+        <item>OOP</item>
+        <item>DTM</item>
+        <item>ETC</item>
+        <item>AMT</item>
+    </string-array>
+
+    <string-array name="it_fourth_sem">
+        <item>Java</item>
+        <item>PWP</item>
+        <item>DCN</item>
+        <item>INS</item>
+        <item>EES</item>
+        <item>IOT</item>
+    </string-array>
+
+    <string-array name="it_fifth_sem">
+        <item>OSY</item>
+        <item>SET</item>
+        <item>ENDS</item>
+        <item>SPT</item>
+        <item>ITR</item>
+
+    </string-array>
+
+    <string-array name="it_sixth_sem">
+        <item>MAN</item>
+        <item>ETI</item>
+        <item>WMN</item>
+        <item>CSS</item>
+        <item>MAD</item>
+        <item>CPE</item>
+    </string-array>
+
+    <!-- ================= ELECTRONICS & TELECOMMUNICATION ================= -->
+
+    <string-array name="etc_first_sem">
+        <item>BMS</item>
+        <item>ENG</item>
+        <item>BSC</item>
+        <item>ICT</item>
+        <item>YAM</item>
+        <item>EWP</item>
+    </string-array>
+
+    <string-array name="etc_second_sem">
+        <item>AMS</item>
+        <item>BEL</item>
+        <item>EEE</item>
+        <item>EMC</item>
+        <item>PCO</item>
+        <item>SFS</item>
+        <item>EWP</item>
+        <item>CPR</item>
+    </string-array>
+
+    <string-array name="etc_third_sem">
+        <item>DTE</item>
+        <item>ATE</item>
+        <item>CKN</item>
+        <item>PEC</item>
+        <item>EIC</item>
+        <item>BPP</item>
+        <item>EMI</item>
+    </string-array>
+
+    <string-array name="etc_fourth_sem">
+        <item>EES</item>
+        <item>DCS</item>
+        <item>CLE</item>
+        <item>MAA</item>
+        <item>BPE</item>
+        <item>MEE</item>
+    </string-array>
+
+    <string-array name="etc_fifth_sem">
+        <item>ESY</item>
+        <item>MWC</item>
+        <item>ENDS</item>
+        <item>SPI</item>
+        <item>ITR</item>
+        <item>IOT</item>
+    </string-array>
+
+    <string-array name="etc_sixth_sem">
+        <item>MAN</item>
+        <item>ETE</item>
+        <item>ONS</item>
+        <item>CND</item>
+        <item>CPE</item>
+    </string-array>
+
+    <!-- ================= CIVIL ================= -->
+
+    <string-array name="civil_first_sem">
+        <item>BMS</item>
+        <item>ENG</item>
+        <item>BSC</item>
+        <item>ICT</item>
+        <item>YAM</item>
+        <item>EGR</item>
+        <item>CEW</item>
+    </string-array>
+
+    <string-array name="civil_second_sem">
+        <item>AMS</item>
+        <item>EGM</item>
+        <item>ASC</item>
+        <item>BMC</item>
+        <item>SUY</item>
+        <item>PCO</item>
+        <item>SFS</item>
+    </string-array>
+
+    <string-array name="civil_third_sem">
+        <item>SOM</item>
+        <item>ASU</item>
+        <item>CTE</item>
+        <item>HEN</item>
+        <item>ETC</item>
+        <item>BDC</item>
+        <item>CMA</item>
+    </string-array>
+
+    <string-array name="civil_fourth_sem">
+        <item>EES</item>
+        <item>RBI</item>
+        <item>HYD</item>
+        <item>ECV</item>
+        <item>WWE</item>
+        <item>GTE</item>
+    </string-array>
+
+    <string-array name="civil_fifth_sem">
+        <item>TOS</item>
+        <item>WRE</item>
+        <item>ETC</item>
+        <item>ENDS</item>
+        <item>SPI</item>
+        <item>ITR</item>
+    </string-array>
+
+    <string-array name="civil_sixth_sem">
+        <item>MAN</item>
+        <item>CAB</item>
+        <item>DRS</item>
+        <item>MRS</item>
+        <item>CPE</item>
+    </string-array>
+
+    <!-- ================= MECHANICAL ================= -->
+
+    <string-array name="mechanical_first_sem">
+        <item>BMS</item>
+        <item>ENG</item>
+        <item>BSC</item>
+        <item>ICT</item>
+        <item>YAM</item>
+        <item>EWP</item>
+        <item>EGR</item>
+    </string-array>
+
+    <string-array name="mechanical_second_sem">
+        <item>AMS</item>
+        <item>ASC</item>
+        <item>EDG</item>
+        <item>EGM</item>
+        <item>MPR</item>
+        <item>PCO</item>
+        <item>SFS</item>
+    </string-array>
+
+    <string-array name="mechanical_third_sem">
+        <item>SOM</item>
+        <item>FMM</item>
+        <item>TEG</item>
+        <item>PDR</item>
+        <item>BEE</item>
+        <item>EIC</item>
+        <item>CAD</item>
+        <item>FPP</item>
+    </string-array>
+
+    <string-array name="mechanical_fourth_sem">
+        <item>EES</item>
+        <item>TOM</item>
+        <item>MAM</item>
+        <item>MEM</item>
+        <item>PPR</item>
+        <item>EDS</item>
+        <item>BOM</item>
+        <item>CNG</item>
+    </string-array>
+
+    <string-array name="mechanical_fifth_sem">
+        <item>ETM</item>
+        <item>PER</item>
+        <item>AEN</item>
+        <item>SPI</item>
+        <item>ITR</item>
+    </string-array>
+
+    <string-array name="mechanical_sixth_sem">
+        <item>MAN</item>
+        <item>DME</item>
+        <item>IEQ</item>
+        <item>IHP</item>
+        <item>3DM</item>
+        <item>CPE</item>
+    </string-array>
+
+    <!-- ================= ELECTRICAL ================= -->
+
+    <string-array name="electrical_first_sem">
+        <item>BMS</item>
+        <item>ENG</item>
+        <item>BSC</item>
+        <item>ICT</item>
+        <item>YAM</item>
+        <item>EWP</item>
+        <item>EGR</item>
+    </string-array>
+
+    <string-array name="electrical_second_sem">
+        <item>AMS</item>
+        <item>FEE</item>
+        <item>ASC</item>
+        <item>EOE</item>
+        <item>PCD</item>
+        <item>SFS</item>
+        <item>BME</item>
+    </string-array>
+
+    <string-array name="electrical_third_sem">
+        <item>ECN</item>
+        <item>GTD</item>
+        <item>EEM</item>
+        <item>FPE</item>
+        <item>EIC</item>
+        <item>EMW</item>
+    </string-array>
+
+    <string-array name="electrical_fourth_sem">
+        <item>EES</item>
+        <item>DMT</item>
+        <item>UEE</item>
+        <item>DEM</item>
+        <item>EEC</item>
+        <item>CDE</item>
+    </string-array>
+
+    <string-array name="electrical_fifth_sem">
+        <item>ACM</item>
+        <item>SGP</item>
+        <item>ENDS</item>
+        <item>SPI</item>
+        <item>ITR</item>
+    </string-array>
+
+    <string-array name="electrical_sixth_sem">
+        <item>MAN</item>
+        <item>ETE</item>
+        <item>ECA</item>
+        <item>MEE</item>
+        <item>BPP</item>
+        <item>CPE</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

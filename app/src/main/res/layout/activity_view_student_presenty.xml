@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:id="@+id/ll1"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Date"
+            android:textSize="18dp"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_date"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="60dp"
+            android:background="@color/purple_700"
+            android:id="@+id/view"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Subject Name"
+            android:textSize="18dp"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/tv_subject_name"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="60dp"
+            android:background="@color/purple_700"
+            android:id="@+id/view1"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Presenty"
+            android:textSize="18dp"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/tv_presenty"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/purple_700"
+        android:id="@+id/view10"
+        android:layout_below="@+id/ll1"
+        />
+    <!--for the Dark White line after the time,watt,timestamp we can used this view-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffff"
+        android:id="@+id/view6"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_view_presenty"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/ll_my_attendance"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/pBar"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Records"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/tv_no_records"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/ll_my_attendance"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Present In"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_present_in_count"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:id="@+id/view4"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Present Ratio"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_present_ration"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home_all_student"
+        android:icon="@drawable/icon_student"
+        android:title="All Student"
+        android:menuCategory="secondary"/>
+
+    <item
+        android:id="@+id/menu_home_add_attendance"
+        android:icon="@drawable/icon_add_attendance"
+        android:title="Add Attendance"
+        android:menuCategory="secondary"/>
+
+    <item
+        android:id="@+id/menu_home_date_wise_attendance"
+        android:icon="@drawable/icon_my_profile"
+        android:title="show attendance by date"
+        android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/menu_home_my_profile"
+        android:icon="@drawable/icon_my_profile"
+        android:title="My Profile"
+        android:menuCategory="secondary"/>
+
+</menu>

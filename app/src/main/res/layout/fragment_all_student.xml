@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:id="@+id/ll1"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:background="@color/purple_700"-->
+<!--        android:weightSum="2">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/tv_name"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Name"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textColor="#fdfefe"-->
+<!--            android:textStyle="bold"-->
+<!--            android:gravity="center"-->
+<!--            android:fontFamily="sans-serif-condensed-medium"-->
+<!--            />-->
+
+<!--        <View-->
+<!--            android:layout_width="1dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:background="@color/purple_700"-->
+<!--            android:id="@+id/view"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/tv_rollno"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Roll No"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textColor="#fdfefe"-->
+<!--            android:textStyle="bold"-->
+<!--            android:gravity="center"-->
+<!--            android:fontFamily="sans-serif-condensed-medium"-->
+<!--            />-->
+
+
+<!--    </LinearLayout>-->
+<!--    &lt;!&ndash;for the Dark White line after the time,watt,timestamp we can used this view&ndash;&gt;-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#ffff"-->
+<!--        android:id="@+id/view6"-->
+<!--        android:layout_below="@+id/ll1"/>-->
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchview_by_name_or_enrollment_no"
+        app:queryHint="Search By Student Name or Enrollment Number"
+        android:padding="4dp"
+        android:background="@drawable/edittextbackground"
+        app:iconifiedByDefault="false"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_presenty"
+        android:layout_below="@+id/searchview_by_name_or_enrollment_no"
+        android:layout_margin="8dp"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Records"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/tv_no_records"/>
+
+
+
+</RelativeLayout>
